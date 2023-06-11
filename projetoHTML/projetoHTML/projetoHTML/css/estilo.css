@@ -1,0 +1,141 @@
+/*
+* 
+* Vamos fazer o estilo customizado aqui
+*
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Tinos&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@600&display=swap');
+
+/* Layout
+-----------------------------*/
+html,
+body,
+#home {
+    /*border: 1px dashed red;*/
+    height: 100%;
+    overflow-x: hidden;
+    margin-bottom: -100px;
+}
+
+body {
+    background: url(../img/capaum.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+/* Barra de navegação
+-----------------------------*/
+
+nav.navbar-black {
+    padding: 15px 0;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #19c9a9
+}
+
+.navbar-light .navbar-toggler {
+    width: 1px;
+    background-color: black;
+    margin: 12px 15px;
+}
+
+.btn-color {
+    background-color: #118C69;
+}
+
+
+/* Estrutura conteúdos
+-----------------------------*/
+.capa {
+    text-align: center;
+}
+
+.capa h1 {
+    margin-bottom: 50px;
+    font-family: 'EB Garamond', serif;
+}
+
+.card {
+    border: 3px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    width: 250px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card img {
+    width: 50%;
+    height: auto;
+}
+
+.card h3 {
+    margin-top: 10px;
+}
+
+.card p {
+    margin-top: 10px;
+}
+
+.caixa {
+    padding: 50px;
+    background-color: #ffffff;
+    margin-top: 10px;
+}
+
+
+
+
+
+/* Rodapé
+-----------------------------*/
+
+footer {
+    text-align: center;
+    background-color: #262626;
+}
+
+.footer img {
+    display: inline-block;
+    width: 50px;
+    margin: 15px;
+}
+
+footer p {
+    color: #ffffff;
+    display: inline-block;
+    font-size: 15px;
+    margin-bottom: 1px;
+}
+
+
+
+
+/* Tipografia
+-----------------------------*/
+
+.letras h1 {
+    font-family: 'Tinos', serif;
+}
+
+.letras h4 {
+    font-family: 'Tinos', serif;
+    font-size: 3em;
+}
+
+.letras p {
+    font-size: 1.3em;
+}
