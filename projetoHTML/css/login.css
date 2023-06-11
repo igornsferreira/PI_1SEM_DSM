@@ -1,0 +1,84 @@
+/* Layout
+-----------------------------*/
+html,
+body,
+#home {
+    /*border: 1px dashed red;*/
+    height: 100%;
+    overflow-x: hidden;
+    margin-bottom: -100px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: url(../img/capaum.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* Estrutura conteúdos
+-----------------------------*/
+.container {
+    max-width: 400px;
+    margin: 170px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+
+.form-button {
+    margin-bottom: 10px;
+    margin-left: 30%;
+    font-size: 1em;
+}
+
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.form-button button {
+    width: 50%;
+    padding: 8px;
+    background-color: #118C69;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    position: center;
+
+}
+
+.form-button a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.form-button a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.form-button button:hover {
+    background-color: #185544;
+}

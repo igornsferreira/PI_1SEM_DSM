@@ -10,18 +10,21 @@
 
 /* Layout
 -----------------------------*/
-html, body, #home {
+html,
+body,
+#home {
     /*border: 1px dashed red;*/
     height: 100%;
     overflow-x: hidden;
-    margin-bottom: -100px;    
+    margin-bottom: -100px;
 }
+
 body {
     background: url(../img/capaum.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    }
+}
 
 
 /* Barra de navegação
@@ -59,6 +62,7 @@ nav.navbar-black {
 
 .capa h1 {
     margin-bottom: 50px;
+    font-family: 'EB Garamond', serif;
 }
 
 .card {
@@ -76,8 +80,6 @@ nav.navbar-black {
 .card img {
     width: 50%;
     height: auto;
-    border-radius: 5px;
-
 }
 
 .card h3 {
@@ -94,9 +96,7 @@ nav.navbar-black {
     margin-top: 10px;
 }
 
-.caixa h1 {
-    font-family: 'EB Garamond', serif;
-}
+
 
 
 
@@ -127,11 +127,15 @@ footer p {
 /* Tipografia
 -----------------------------*/
 
-.letras h1 {font-family: 'Tinos', serif;}
+.letras h1 {
+    font-family: 'Tinos', serif;
+}
 
 .letras h4 {
     font-family: 'Tinos', serif;
     font-size: 3em;
 }
 
-.letras p {font-size: 1.3em;}
+.letras p {
+    font-size: 1.3em;
+}
